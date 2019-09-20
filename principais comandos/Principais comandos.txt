@@ -117,10 +117,16 @@ $ git rebase rebase
 # arquivo no nosso diretorio principal
 $ touch .gitignore
 $ vim .gitignore
-$ *.xml
+# nome dos arquivos para ignorar 
+$ *.xml gie 
+$exe_criacao_arquivo
+$exe_limpezaGIE 
+$*.txt
 # ou nome do arquivo
 $ db.xml
-
+#depois
+$git add .gitignore
+#pronto! depois so para testar git status - para ver se os arquivos não aparecem mais mesmo 
 
 
 
