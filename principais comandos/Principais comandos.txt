@@ -224,6 +224,9 @@ $ git push -u origin master
 #enviado primeiro push - push é enviar o arquivo para o github
 $ git push -u origin master
 
+*origin: nome do repositório remoto (origin é o nome criado por padrão);
+
+
 
 
 #Enviando Mudanças para um repositorio remoto
@@ -452,6 +455,9 @@ unmodified: os que não foram alterados
 
 
 
+
+
+
 -------------------------------------------------------------------------------------------------------------------------------------------------------
 Repositório Remoto Modelo Centralizado GIT
 
@@ -473,6 +479,27 @@ $ git init --bare
 
 
 
+
+
+
+
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------
+Diversos:
+
+#sempre que formos iniciar uma nova tarefa, é importante obter as modificações, evitando assim trabalhar em cima de um código desatualizado.
+
+#Manter o código do repositório local atualizado permite antecipar possíveis problemas e conflitos que possam ocorrer, tornando-os mais fáceis de serem resolvidos.
+
+
+#Conflitos ocorrem quando dois membros da equipe alteram, simultaneamente, um mesmo trecho de texto de um arquivo. Algumas vezes o Git Corporativo consegue mesclar (merge) o código fonte dos dois desenvolvedores. Outras vezes, um dos desenvolvedores precisa mesclar de forma manual, resolvendo assim o conflito.
+
+
+
+
+
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
 
