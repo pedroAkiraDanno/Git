@@ -243,6 +243,15 @@ $ git clone https://github.com/Iterable/swift-sdk.git
 
 
 
+#removendo arquivos 
+#excluir arquivos desnecessários e fazer com que essa exclusão seja refletida no(GitHub)
+$ git rm meu-script.sh
+$ git commit -m "Remove o arquivo meu-script.sh"
+$ git log
+$ git push
+
+
+
 
 
 # fork
