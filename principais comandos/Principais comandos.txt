@@ -121,6 +121,7 @@ $ vim .gitignore
 $ *.xml gie 
 $exe_criacao_arquivo
 $exe_limpezaGIE 
+# Ignora o arquivo-ignorado.txt
 $*.txt
 # ou nome do arquivo
 $ db.xml
